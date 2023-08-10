@@ -856,24 +856,24 @@ workspace-delete =
 ######################################################################### Share mode ###############################################################
 
 sharemode-menuitem =
-  .label = 画面共有モード
+  .label = 화면 공유 모드
 
 ######################################################################### Like Chrome Download mgr ###############################################################
 
 floorp-delete-all-downloads =
-  .label = すべてのダウンロードを隠す
+  .label = 모든 다운로드를 숨기기
   .accesskey = D
-  .tooltiptext = すべてのダウンロードを隠す
+  .tooltiptext = 모든 다운로드를 숨기기
 
 floorp-show-all-downloads =
-  .label = すべてのダウンロードを表示
+  .label = 모든 다운로드를 표시
   .accesskey = S
-  .tooltiptext = すべてのダウンロードを表示
+  .tooltiptext = 모든 다운로드를 표시
 
 ############################################################################## Welcome page ###############################################################
 
-welcome-login-to-firefox-account = Firefox アカウントにログイン
-welcome-to-floorp = { -brand-short-name } へようこそ !
+welcome-login-to-firefox-account = Firefox 계정에 로그인
+welcome-to-floorp = { -brand-short-name } 에 어서오세요!
 welcome-discribe-floorp = { -brand-short-name } は、Firefox ベースの、様々な機能を搭載した日本で開発されているフレキシブルなブラウザーです！
 welcome-start-setup = セットアップを開始する
 welcome-skip-to-start-browsing = 今すぐブラウジングを開始する
