@@ -86,78 +86,78 @@ multirow-tabbar =
 vertical-tabbar =
  .label = 수직 탭 (실험적)
 
-native-tabbar-tip = この機能は Firefox のサイドバーを使用し、サイドバーを使用するアドオン・サイドバーパネルが使用できなくなります。
+native-tabbar-tip = 이 기능은 Firefox 의 사이드바를 사용하며, 사이드바를 사용하는 애드온 및 사이드바 패널을 사용할 수 없게 됩니다.
 
 hover-vertical-tab =
- .label = フォーカスされた場合に垂直タブを展開する
+ .label = 포커스된 경우에 수직 탭을 전개하기
 
 TST = 트리 형 탭
 
 treestyletab-Settings =
-  .label = フォーカスされた場合にツリースタイルタブを展開する
+  .label = 포커스된 경우 트리 스타일 탭을 전개하기
 
-about-TST = ツリー型タブは Floorp 10 で内蔵されていた垂直タブを作成するアドオンです。このアドオンをインストールすると、固有の設定が使用でき、Floorp 10 と同じ使用感に戻せます。
+about-TST = 트리 스타일 탭은 Floorp 10 에 내장되어 있던 수직 탭을 만들 수 있는 애드온입니다. 이 애드온을 설치하면, 고유의 설정을 사용할 수 있게 되어, Floorp 10과 같은 사용감으로 되돌릴 수 있습니다.
 
 ## ↓ Will be deleted
-vertical-tab-reverse-position = 垂直タブの位置を反転させる
+vertical-tab-reverse-position = 수직 탭의 위치를 반전시키기
 
-sidebar-reverse-position-toolbar = サイドバーの位置を反転させる
+sidebar-reverse-position-toolbar = 사이드바의 위치를 반전시키기
 
-bookmarks-bar-settings = ブックマークバーの設定（設定の併用不可）
+bookmarks-bar-settings = 북마크 바의 설정 (설정 병용 불가)
 bookmarks-focus-mode =
- .label = ブックマークバーをフォーカスされた場合に表示
+ .label = 북마크 바가 포커스된 경우 표시
 bookmarks-bottom-mode =
- .label = ブックマークバーをウインドウの下部に表示
+ .label = 북마크 바를 창 하부에 표시
 
-nav-bar-settings = ナビゲーションバーの設定
+nav-bar-settings = 네비게이션 바의 설정
 show-nav-bar-bottom =
- .label = ナビゲーションバーをウインドウの下部に表示 (実験的)
+ .label = 네비게이션 바를 창 하부에 표시 (실험적)
 
 material-effect =
- .label = Mica for Everyone によるマテリアルデザインの効果を有効にする
+ .label = Mica for Everyone 에 의한 머티리얼 디자인의 효과를 사용하기
 disable-extension-check-compatibility-option =
- .label = アドオンと互換性があるか確認しない
-other-preference = その他の設定
+ .label = 애드온과 호환성이 있는지 확인하지 않기
+other-preference = 그외 설정
 
 enable-userscript =
- .label = userChrome.js スクリプト・レガシーアドオンのローダーを有効にする
-about-legacy-components = この機能を有効にすると予期せぬエラーを発生させる可能性があります。
+ .label = userChrome.js 스크립트 및 레거시 애드온의 로더를 사용하기
+about-legacy-components = 이 기능을 사용하면, 예측되지 않은 에러를 발생시킬 가능성이 있습니다.
 
 Search-positon-top =
- .label = 検索バーを上部に表示
+ .label = 검색 바를 윗부분에 표시
 allow-auto-restart =
- .label = 再起動が必要な設定を変更した時に自動で再起動する
+ .label = 재시작이 필요한 설정을 변경했을 때 자동으로 재시작하기
 
 browser-rest-mode =
- .label = 休憩モードのショートカットキー（F9）を有効にする
+ .label = 휴식 모드의 단축키 (F9) 을 사용하기
 
 disable-fullscreen-notification =
- .label = 動画閲覧時のフルスクリーン通知を無効にする
+ .label = 영상을 볼때 전체화면 알림을 무효화하기
 
-floorp-updater = { -brand-short-name } のアップデーター設定
+floorp-updater = { -brand-short-name } 의 업데이터 설정
 enable-floorp-updater =
- .label = { -brand-short-name } のアップデートを起動時に確認する
+ .label = { -brand-short-name } 의 업데이트를 켤 때 확인하기
 floorp-update-latest =
- .label = { -brand-short-name } が最新版であることを自動アップデートチェック時に通知する
+ .label = { -brand-short-name } 가 최신판인지 자동 업데이트 확인시에 알리기
 
 ## system theme color
 
-system-color-settings = ライトモード・ダークモードの双方に設定中のテーマが対応している場合デザインを切り替えられます。
-preferences-theme-appearance-header = テーマの外観設定
+system-color-settings = 라이트 모드 및 다크모드 양쪽에 설정중인 테마가 지원하고 있을 경우 디자인을 선택할 수 있습니다.
+preferences-theme-appearance-header = 테마의 외관 설정
 
 system-theme-dark =
- .label = ダークモードを有効にする
+ .label = 타크 모드를 사용하기
 
 system-theme-light =
- .label = ライトモードを有効にする
+ .label = 라이트 모드를 사용하기
 
 system-theme-auto =
- .label = システムの設定に従う
+ .label = 시스템 설정에 따르기
 
 ## user interface prefernces
 
-ui-preference = ユーザーインターフェイスの設定
-preferences-browser-appearance-description = ブラウザーの外観設定を決められます。完全テーマのように、５つのデザインの中からブラウザーの外観を変更することができます。
+ui-preference = 유저 인터페이스의 설정
+preferences-browser-appearance-description = 브라우저의 외관 설정을 정할 수 있습니다. 완전 테마처럼 5개의 디자인 중에서 브라우저의 외관을 변경할 수 있습니다.
 
 firefox-proton =
  .label = Firefox Proton 디자인
@@ -222,28 +222,28 @@ downloading-red-color =
 
 sidebar-preferences = 브라우저 관리자의 사이드바 설정
 view-sidebar2-right =
- .label = サイドバーを右側に表示する
+ .label = 사이드 바를 오른쪽에 표시하기
 enable-sidebar2 =
- .label = ブラウザーマネージャーサイドバーを有効にする
+ .label = 브라우저 매니저 사이드바를 사용하기
 
-custom-URL-option = ウェブパネルの URL 設定
+custom-URL-option = 웹 패널의 URL 설정
 set-custom-URL-button =
-    .label = カスタム URL を設定
+    .label = 커스텀 URL 을 설정
     .accesskey = S
-bsb-header = ブラウザーマネージャーサイドバー
-bsb-preferences = ブラウザーマネージャーサイドバーの設定
+bsb-header = 브라우저 매니저 사이드바
+bsb-preferences = 브라우저 매니저 사이드바의 설정
 visible-bms =
- .label = ブラウザーマネージャーサイドバーを表示する
-pane-BSB-title = ブラウザーマネージャーサイドバー
-bsb-context = コンテナタブを選択する
+ .label = 브라우저 매니저 사이드바를 표시하기
+pane-BSB-title = 브라우저 매니저 사이드바
+bsb-context = 컨테이너 탭을 선택하기
 bsb-userAgent-label =
-  .label = ユーザーエージェントをモバイルに切り替える
-bsb-width = ウェブパネルの幅 (もし0ならグローバル値が使われます)
-bsb-page = 開くページ
+  .label = 유저 에이전트를 모바일로 변경하기
+bsb-width = 웹 패널의 폭 (만약 0이라면 글로벌 값이 사용됩니다)
+bsb-page = 열 페이지
 
-bsb-add = ブラウザーマネージャーサイドバーのウェブパネルを追加する
+bsb-add = 브라우저 매니저 사이드바의 웹 패널을 추가하기
 
-bsb-setting = ウェブパネルの設定
+bsb-setting = 웹 패널의 설정
 
 bsb-add-title =
  .title = { bsb-add }
@@ -270,17 +270,17 @@ bsb-TST-sidebar =
   .label = { sidebar2-TST-sidebar }
 
 bsb-website =
-  .label = ウェブサイト
+  .label = 웹사이트
 
 sidebar2-pref-delete =
- .label = 削除
+ .label = 삭제
 
 sidebar2-pref-setting =
- .label = 設定
+ .label = 설정
 
-sidebar2-global-width = ウェブパネルの幅のグローバル値
+sidebar2-global-width = 웹 패널의 폭의 글로벌 값
 
-use-icon-provider-option = ウェブパネルのアイコン提供元
+use-icon-provider-option = 웹 패널의 아이콘 제공 소스
 
 use-icon-provider-option-google =
  .label = Google
@@ -289,140 +289,140 @@ use-icon-provider-option-duckduckgo =
  .label = DuckDuckGo
 
 use-icon-provider-option-yandex =
- .label = Yandex (中国本土で利用可能)
+ .label = Yandex (중국 본토에서 사용 가능)
 
 use-icon-provider-option-hatena =
- .label = Hatena (中国本土で利用可能)
+ .label = Hatena (중국 본토에서 사용 가능)
 
-memory-and-performance = メモリとパフォーマンスの設定
+memory-and-performance = 메모리와 성능 설정
 
 min-memory =
-    .label = メモリ使用量を最小限にする
+    .label = 메모리 사용량을 최소한으로 하기
 
 balance-memory =
-    .label = パフォーマンスとメモリ使用量のバランスを取る
+    .label = 성능과 메모리 사용량의 균형을 잡기
 
 max-memory =
-    .label = 最高パフォーマンスを得るためにメモリ使用量を最大限にする（既定）
+    .label = 최고 성능을 얻기 위해 메모리 사용량을 최대한으로 하기 (기본값)
 
 delete-border-and-roundup-option =
-  .label = 枠線をサイトの枠のみにし、{ -brand-short-name } 自体を丸くする
+  .label = 테두리 선을 사이트의 테두리만으로 하고 { -brand-short-name } 자체를 동그랗게 하기
 
 ## DualTheme
 dualtheme-enable =
- .label = デュアルテーマを有効にする
+ .label = 듀얼 테마를 사용하기
 
-newtab-background = { -brand-short-name } Home の背景の設定
+newtab-background = { -brand-short-name } Home 의 배경 설정
 
 newtab-background-random-image =
-    .label = ランダムな Unsplash の画像を使用する
+    .label = 랜덤한 Unsplash 의 이미지를 사용하기
 
 newtab-background-gradation =
-    .label = グラデーション
+    .label = 그라데이션
 
 newtab-background-not-background =
-    .label = 背景を表示しない
+    .label = 배경을 표시하지 않기
 
 newtab-background-selected-image =
-    .label = 選択されているフォルダ内の画像を使用する
+    .label = 선택되어 있는 폴더 속 이미지를 사용하기
 
-newtab-background-folder = 選択されているフォルダ
+newtab-background-folder = 선택되어 있는 폴더
 
 newtab-background-folder-reload =
-  .label = 画像を再読込する
+  .label = 이미지를 다시 로드하기
 
 newtab-background-folder-default =
-  .label = 既定値に戻す
+  .label = 기본값으로 되돌리기
 
 newtab-background-folder-open =
-  .label = フォルダを開く
+  .label = 폴더를 열기
 
-newtab-background-folder-choose = フォルダを選ぶ
+newtab-background-folder-choose = 폴더를 선택하기
 
-newtab-background-extensions = 画像の拡張子 (","で区切ります)
+newtab-background-extensions = 이미지의 확장자 (","로 구분짓습니다)
 
 disable-blur-on-newtab =
-  .label = { -brand-short-name } Home でのブラー効果を無効にする
+  .label = { -brand-short-name } Home 에서의 블러 효과를 사용하지 않기
 
 ## lepton preferences
 
-about-lepton = { -brand-short-name } を Lepton を使用してカスタマイズします。設定の変更に、{ -brand-short-name } の再起動は必要ありません。代わりに Floorp は Lepton を再適用します。
+about-lepton = { -brand-short-name } 를 Lepton 을 사용하여 커스터마이즈합니다. 설정 변경에 { -brand-short-name } 의 재시작은 필요하지 않습니다. 대신 Floorp 는 Lepton 을 다시 적용합니다.
 
 lepton-preference-button =
-    .label = Lepton の設定を開く
+    .label = Lepton 의 설정을 열기
     .accesskey = L
 
-lepton-header = Lepton の設定
+lepton-header = Lepton 의 설정
 
-lepton-preference = Lepton の UI 設定
+lepton-preference = Lepton 의 UI 설정
 photon-mode =
-    .label = Photon UI モード
+    .label = Photon UI 모드
 
 lepton-mode =
-    .label = Lepton UI モード
+    .label = Lepton UI 모드
 
 protonfix-mode =
-    .label = Proton Fix UI モード
+    .label = Proton Fix UI 모드
 
-autohide-preference = 自動非表示のカスタマイズ
+autohide-preference = 자동 비표시의 커스터마이즈
 
 floorp-lepton-enable-tab-autohide =
-    .label = タブバーの自動非表示を有効にする
+    .label = 탭 바의 자동 비표시를 사용하기
 floorp-lepton-enable-navbar-autohide =
-    .label = ナビゲーションバーの自動非表示を有効にする
+    .label = 네비게이션 바의 자동 비표시를 사용하기
 floorp-lepton-enable-sidebar-autohide =
-    .label = サイドバーの自動非表示を有効にする
+    .label = 사이드바의 자동 비표시를 사용하기
 floorp-lepton-enable-urlbar-autohide =
-    .label = URL バーの自動非表示を有効にする
+    .label = URL 바의 자동 비표시를 사용하기
 floorp-lepton-enable-back-button-autohide =
-    .label = 「戻る」ボタンの自動非表示を有効にする
+    .label = "돌아가기" 버튼의 자동 비표시를 사용하기
 floorp-lepton-enable-forward-button-autohide =
-    .label = 「進む」ボタンの自動非表示を有効にする
+    .label = "나아가기" 버튼의 자동 비표시를 사용하기
 floorp-lepton-enable-page-action-button-autohide =
-    .label = アドオンのページアクションボタンの自動非表示を有効にする
+    .label = 애드온의 페이지 액션 버튼의 자동 비표시를 사용하기
 floorp-lepton-enable-toolbar-overlap =
-    .label = ツールバーを URL バーと重ねる
+    .label = 툴바를 URL 바와 겹치기
 floorp-lepton-enable-toolbar-overlap-allow-layout-shift-autohide =
-    .label = ツールバーを URL バーと重ねる (自動非表示を有効にするとレイアウトが崩れる場合があります)
+    .label = 툴바를 URL 바와 겹치기 (자동 비표시를 사용할 때 레이아웃이 깨지는 경우가 있습니다)
 
-hide-preference = 非表示のカスタマイズ
+hide-preference = 비표시의 커스터마이즈
 
 floorp-lepton-enable-tab_icon-hide =
-    .label = タブのアイコンを非表示にする
+    .label = 탭 아이콘을 표시하지 않기
 floorp-lepton-enable-tabbar-hide =
-    .label = タブバーを非表示にする
+    .label = 탭 바를 표시하지 않기
 floorp-lepton-enable-navbar-hide =
-    .label = ナビゲーションバーを非表示にする
+    .label = 네비게이션 바를 표시하지 않기
 floorp-lepton-enable-sidebar_header-hide =
-    .label = サイドバーのヘッダーを非表示にする
+    .label = 사이드바의 레더를 표시하지 않기
 floorp-lepton-enable-urlbar_iconbox-hide =
-    .label = URL バーのアイコンボックスを非表示にする
+    .label = URL 바의 아이콘 박스를 표시하지 않기
 floorp-lepton-enable-bookmarkbar_icon-hide =
-    .label = ブックマークバーのアイコンを非表示にする
+    .label = 북마트 바의 아이콘을 표시하지 않기
 floorp-lepton-enable-bookmarkbar_label-hide =
-    .label = ブックマークバーのラベル名を非表示にする
+    .label = 북마크 바의 라벨 명을 표시하지 않기
 floorp-lepton-enable-disabled_menu-hide =
     .label = 無効なコンテストメニュー・メニューを非表示にする
 
-positon-preferences = 位置のカスタマイズ
+positon-preferences = 위치의 커스터마이즈
 
 floorp-lepton-enable-centered-tab =
-    .label = タブ名を中央に配置する
+    .label = 탭 이름을 중앙에 배치하기
 floorp-lepton-enable-centered-urlbar =
-    .label = URL バーを中央に配置する
+    .label = URL 바를 중앙에 배치하기
 floorp-lepton-enable-centered-bookmarkbar =
-    .label = ブックマークバーを中央に配置する
+    .label = 북마크 바를 중앙에 배치하기
 
-urlbar-preferences = URLバーのカスタマイズ
+urlbar-preferences = URL 바의 커스터마이즈
 
 floorp-lepton-enable-urlbar-icon-move-to-left =
-    .label = URL バーのアイコンを左に移動する
+    .label = URL 바의 아이콘을 왼쪽으로 이동하기
 floorp-lepton-enable-urlname-go_button_when_typing =
-    .label = URL バーで入力中は「移動」ボタンを表示する
+    .label = URL 바에서 입력중은 "이동" 버튼을 표시하기
 floorp-lepton-enable-always-show-page_action =
-    .label = アドオンのページアクションボタンを常に表示する
+    .label = 애드온의 페이지 액션 버튼을 언제나 표시하기
 
-tabbar-preferences = タブバーのカスタマイズ
+tabbar-preferences = 탭 바의 커스터마이즈
 
 floorp-lepton-enable-tabbar-positon-as-titlebar =
     .label = タブバーをタイトルバーの位置に配置する
@@ -874,29 +874,29 @@ floorp-show-all-downloads =
 
 welcome-login-to-firefox-account = Firefox 계정에 로그인
 welcome-to-floorp = { -brand-short-name } 에 어서오세요!
-welcome-discribe-floorp = { -brand-short-name } は、Firefox ベースの、様々な機能を搭載した日本で開発されているフレキシブルなブラウザーです！
-welcome-start-setup = セットアップを開始する
-welcome-skip-to-start-browsing = 今すぐブラウジングを開始する
-welcome-select-preferences-template = テンプレートを選択
-welcome-minimum-template = 梅
-welcome-enable-basic-features = 基本的な機能と設定を有効にして、シンプルな体験を。
-welcome-medium-template = 竹 (既定)
-welcome-enable-some-features = より良い体験のための追加機能と設定を有効にします。
-welcome-maximum-template = 松
-welcome-enable-most-of-features = 高度な機能と設定を有効にします。ギークなユーザーにお勧めします。
-welcome-go-next-setup = 次へ進む
-welcome-select-browser-design = ブラウザーのデザインを選択
+welcome-discribe-floorp = { -brand-short-name } 는 Firefox 기반의 다양한 기능을 탑재한, 일본에서 개발되고 있는 유연한 브라우저입니다!
+welcome-start-setup = 시작 설정을 시작하기
+welcome-skip-to-start-browsing = 지금 바로 브라우징을 시작하기
+welcome-select-preferences-template = 템플릿을 선택
+welcome-minimum-template = 매
+welcome-enable-basic-features = 기본적인 기능과 설정으로 심플한 경험을.
+welcome-medium-template = 죽 (기본값)
+welcome-enable-some-features = 더 나은 경험을 위해 추가기능과 설정을 사용합니다.
+welcome-maximum-template = 송
+welcome-enable-most-of-features = 고도의 기능과 설정을 사용합니다. Geek한 유저에게 추천드립니다.
+welcome-go-next-setup = 다음
+welcome-select-browser-design = 브라우저의 디자인을 선택
 welcome-discribe-browser-design = サードパーティによる素晴らしいデザインから { -brand-short-name } のデザインを 1 つを選ぶことができます。OS 固有のデザインも about:preferences で利用可能です。
-welcome-design-lepton-name = Lepton オリジナルデザイン
-welcome-design-photon-name = Lepton Photon デザイン
-welcome-design-ProtonFix-name = Lepton ProtonFix デザイン
-welcome-design-floorp-fluerial-name = Floorp Fluerial デザイン
-welcome-design-firefox-proton-name = Firefox Proton デザイン
+welcome-design-lepton-name = Lepton 오리지널 디자인
+welcome-design-photon-name = Lepton Photon 디자인
+welcome-design-ProtonFix-name = Lepton ProtonFix 디자인
+welcome-design-floorp-fluerial-name = Floorp Fluerial 디자인
+welcome-design-firefox-proton-name = Firefox Proton 디자인
 welcome-import-data = ユーザーデータのインポート
 welcome-import-data-description = 迅速なセットアップ！古いブラウザからブックマークやパスワードなどをインポートできます。Firefox ユーザーは Firefox Sync からデータをインポートできます。
 welcome-import-data-button = インポートを実行する
 welcome-import-data-skip = インポートをスキップする
-welcome-select-button = 選択
+welcome-select-button = 선택
 welcome-finish-setup = セットアップを完了！
 welcome-finish-setup-description = これで設定完了です！垂直タブ・アドオン等のその他の設定は、about:preferences から確認できます。{ -brand-short-name } をお楽しみください !
 welcomet-finish-setup = ブラウジングを開始する
