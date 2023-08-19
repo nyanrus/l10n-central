@@ -456,19 +456,22 @@ restore-button = 복원
 
 ## user.js
 
-userjs-button =  user.js オプションを開く...
-userjs-select-option =  user.js を選択
+userjs-button =  user.js 옵션을 열기...
+userjs-select-option =  user.js 를 선택
 
 header-userjs = user.js
-userjs-customize = user.js で { -brand-short-name } をカスタマイズする。
-about-userjs-customize = user.jsは、{ -brand-short-name } をカスタマイズするための設定ファイルです。user.js はインターネットからダウンロードされ、元の user.js ファイルを上書きします。元の user.js のバックアップをとってから使用してください。ダウンロード先の user.js により発生した問題は Floorp は無関係として処理します。
+userjs-customize = user.js 로 { -brand-short-name } 를 커스터마이즈 하기.
+about-userjs-customize = user.js는 { -brand-short-name } 를 커스터마이즈 하기 위한 설정 파일입니다.
+  user.js 는 인터넷으로부터 다운로드되어 기존의 user.js 파일을 덮어 씌웁니다.
+  기존의 user.js 의 백업을 하고 사용해주세요.
+  다운로드되는 user.js에 의해 발생한 문제는 Floorp 는 관계가 없는 것으로 처리됩니다.
 
-userjs-label = user.js リスト
+userjs-label = user.js 목록
 userjs-prompt = Floorp user.js
-apply-userjs-attention = これにより、元の user.js ファイルは上書きされます。
-apply-userjs-attention2 = 使用する前に、元の user.js ファイルをバックアップしてください。
+apply-userjs-attention = 이것에 의해 기존의 user.js 파일은 덮어 씌워집니다.
+apply-userjs-attention2 = 사용하기 전에 기존의 user.js 파일을 백업해 주세요.
 
-apply-userjs-button = 適用する
+apply-userjs-button = 적용하기
 
 ## userjs Options
 
