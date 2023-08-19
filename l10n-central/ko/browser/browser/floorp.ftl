@@ -528,31 +528,31 @@ workspace-customize =
  .title = ワークスペースのカスタマイズ
 
 workspace-icon-briefcase =
- .label = 仕事
+ .label = 일
 workspace-icon-cart =
- .label = ショッピング
+ .label = 쇼핑
 workspace-icon-circle =
- .label = サークル
+ .label = 서클
 workspace-icon-dollar =
- .label = 銀行
+ .label = 은행
 workspace-icon-fence =
- .label = 柵
+ .label = 울타리
 workspace-icon-fingerprint =
- .label = 個人
+ .label = 개인
 workspace-icon-gift =
- .label = ギフト
+ .label = 선물
 workspace-icon-vacation =
- .label = 休暇・旅行
+ .label = 휴가, 여행
 workspace-icon-food =
- .label = 食べ物
+ .label = 음식
 workspace-icon-fruit =
- .label = フルーツ
+ .label = 과일
 workspace-icon-pet =
- .label = ペット
+ .label = 펫
 workspace-icon-tree =
- .label = 植物
+ .label = 식물
 workspace-icon-chill =
- .label = プライベート
+ .label = 프라이빗
 
 
 ## mouse Gesture
@@ -727,14 +727,14 @@ please-enter-filename = ファイル名を入力してください。
 
 ################################################################### Undo-Closed-Tab ###############################################################
 
-undo-closed-tab = 閉じたタブを開く
+undo-closed-tab = 닫힌 탭을 열기
 
 ################################################################### about:addons ###############################################################
 
 # DualTheme
-dual-theme-enable-addon-button = 有効化（サブテーマ）
-dual-theme-disable-addon-button = 無効化 (サブテーマ)
-dual-theme-enabled-heading = 有効（サブテーマ）
+dual-theme-enable-addon-button = 유효화 (서브 테마)
+dual-theme-disable-addon-button = 무효화 (서브 테마)
+dual-theme-enabled-heading = 유효 (서브 테마)
 
 ##################################################################### migration  ###############################################################
 
@@ -745,40 +745,40 @@ import-from-vivaldi =
 ##################################################################### toolbar ###############################################################
 
 status-bar =
-  .label = ステータスバー
+  .label = 상태 바
   .accesskey = S
 
 ##################################################################### Gesturefly ###############################################################
 
-gf-floorp-open-tree-style-tab-name = [Floorp] ツリー型タブを開く
-gf-floorp-open-tree-style-tab-description = Floorpのツリー型タブをサイドバーを開きます。
+gf-floorp-open-tree-style-tab-name = [Floorp] 트리 형 탭을 열기
+gf-floorp-open-tree-style-tab-description = Floorp 의 사이드바에서 트리 형 탭을 엽니다.
 
-gf-floorp-open-bookmarks-sidebar-name = [Floorp] サイドバーでブックマークを開く
-gf-floorp-open-bookmarks-sidebar-description = Floorpのサイドバーのブックマークを開きます。
+gf-floorp-open-bookmarks-sidebar-name = [Floorp] 사이드 바에서 북마크를 열기
+gf-floorp-open-bookmarks-sidebar-description = Floorp 의 사이드 바에서 북마크를 엽니다.
 
-gf-floorp-open-history-sidebar-name = [Floorp] サイドバーで履歴を開く
-gf-floorp-open-history-sidebar-description = Floorpのサイドバーの履歴を開きます。
+gf-floorp-open-history-sidebar-name = [Floorp] 사이드 바에서 기록을 열기
+gf-floorp-open-history-sidebar-description = Floorp 의 사이드 바에서 기록을 엽니다.
 
-gf-floorp-open-synctabs-sidebar-name = [Floorp] サイドバーで同期タブを開く
-gf-floorp-open-synctabs-sidebar-description = Floorpのサイドバーの同期タブを開きます。
+gf-floorp-open-synctabs-sidebar-name = [Floorp] 사이드 바에서 동기화 탭을 열기
+gf-floorp-open-synctabs-sidebar-description = Floorp 의 사이드 바에서 동기화 탭을 엽니다.
 
-gf-floorp-close-sidebar-name = [Floorp] サイドバーを閉じる
-gf-floorp-close-sidebar-description = Floorpのサイドバーを閉じます。
+gf-floorp-close-sidebar-name = [Floorp] 사이드 바를 닫기
+gf-floorp-close-sidebar-description = Floorp 의 사이드 바를 닫습니다.
 
-gf-floorp-open-browser-manager-sidebar-name = [Floorp] BMSを開く
-gf-floorp-open-browser-manager-sidebar-description = Floorpのブラウザマネージャーサイドバーで最後に開いていたウェブパネルがロードされている場合開きます。
+gf-floorp-open-browser-manager-sidebar-name = [Floorp] BMS를 열기
+gf-floorp-open-browser-manager-sidebar-description = Floorp 의 브라우저 매니저 사이드 바에서 마지막에 열고 있던 웹 패널이 로드되어 있는 경우 그것을 엽니다.
 
-gf-floorp-close-browser-manager-sidebar-name = [Floorp] BMSを閉じる
-gf-floorp-close-browser-manager-sidebar-description = Floorp のブラウザマネージャーサイドバーを閉じます。
+gf-floorp-close-browser-manager-sidebar-name = [Floorp] BMS를 닫기
+gf-floorp-close-browser-manager-sidebar-description = Floorp 의 브라우저 매니저 사이드 바를 닫습니다.
 
-gf-floorp-toggle-browser-manager-sidebar-name = [Floorp] BMS の表示を切り替える
-gf-floorp-toggle-browser-manager-sidebar-description = Floorp のブラウザマネージャーサイドバーを表示または非表示にします。
+gf-floorp-toggle-browser-manager-sidebar-name = [Floorp] BMS 의 표시를 전환하기
+gf-floorp-toggle-browser-manager-sidebar-description = Floorp 의 브라우저 매니저 사이드 바를 표시 또는 비표시로 합니다.
 
-gf-floorp-show-statusbar-name = [Floorp] ステータスバーを表示する
-gf-floorp-show-statusbar-description = Floorpのステータスバーを表示します。
+gf-floorp-show-statusbar-name = [Floorp] 상태 바를 표시하기
+gf-floorp-show-statusbar-description = Floorp 의 상태 바를 표시합니다.
 
-gf-floorp-hide-statusbar-name = [Floorp] ステータスバーを非表示にする
-gf-floorp-hide-statusbar-description = Floorpのステータスバーを非表示にします。
+gf-floorp-hide-statusbar-name = [Floorp] 상태 바를 표시하지 않기
+gf-floorp-hide-statusbar-description = Floorp 의 상태 바를 표시하지 않습니다.
 
 gf-floorp-toggle-statusbar-name = [Floorp] ステータスバーの表示を切り替え
 gf-floorp-toggle-statusbar-description = ステータスバーを表示または非表示にします。
@@ -791,27 +791,27 @@ gf-floorp-open-extension-sidebar-settings-list-default = アドオンを選択�
 gf-floorp-open-extension-sidebar-settings-list-unknwon = 不明なアドオン
 ##################################################################### Floorp System Update Portable Version ###############################################################
 
-update-portable-notification-found-title = Floorpの最新バージョンがリリースされました。
-update-portable-notification-found-message = ダウンロードしています...
-update-portable-notification-ready-title = アップデートする準備ができました。
-update-portable-notification-ready-message = 次回ブラウザー起動時にアップデートが開始されます。
-update-portable-notification-success-title = アップデートが完了しました！
-update-portable-notification-success-message = アップデートが完了しました！新しいバージョンのFloorpをお楽しみください。
-update-portable-notification-failed-title = アップデートに失敗しました。
-update-portable-notification-failed-redirector-message = アップデートに失敗しました。ブラウザーを再起動すると、問題が解決する場合があります。
-update-portable-notification-failed-prepare-message = アップデートの準備に失敗しました。
+update-portable-notification-found-title = Floorp 의 최신 버전이 릴리스되었습니다.
+update-portable-notification-found-message = 다운로드 중입니다...
+update-portable-notification-ready-title = 업데이트할 준비가 되었습니다.
+update-portable-notification-ready-message = 다음에 브라우저를 켤 때 업데이트가 시작됩니다.
+update-portable-notification-success-title = 업데이트가 완료되었습니다!
+update-portable-notification-success-message = 업데이트가 완료되었습니다! 새로운 버전의 Floorp 를 즐겨주세요.
+update-portable-notification-failed-title = 업데이트에 실패했습니다.
+update-portable-notification-failed-redirector-message = 업데이트에 실패했습니다. 브라우저를 재시작하면 문제가 해결되는 경우가 있습니다.
+update-portable-notification-failed-prepare-message = 업데이트 준비에 실패했습니다.
 
 ##################################################################### Open link in external ###############################################################
-openInExternal-title = 外部ブラウザーで開く
+openInExternal-title = 외부 브라우저로 열기
 open-link-in-external-enabled-option =
- .label = 「外部ブラウザーで開く」機能を有効にする
-open-link-in-external-select-browser-option = 「外部ブラウザーで開く」で開くブラウザー
+ .label = "외부 브라우저로 열기" 기능을 사용하기
+open-link-in-external-select-browser-option = "외부 브라우저로 열기"로 열 브라우저
 open-link-in-external-select-browser-option-default =
- .label = デフォルトのブラウザー
-open-link-in-external-tab-context-menu = 外部ブラウザーで開く
-open-link-in-external-tab-dialog-title-error = エラー
-open-link-in-external-tab-dialog-message-default-browser-not-found = デフォルトのブラウザーが存在しないか、設定されていません。
-open-link-in-external-tab-dialog-message-selected-browser-not-found = 選択されたブラウザーは存在しません。
+ .label = 기본 브라우저
+open-link-in-external-tab-context-menu = 외부 브라우저로 열기
+open-link-in-external-tab-dialog-title-error = 에러
+open-link-in-external-tab-dialog-message-default-browser-not-found = 기본 브라우저가 존재하지 않거나 설정되어 있지 않습니다.
+open-link-in-external-tab-dialog-message-selected-browser-not-found = 선택된 브라우저는 존재하지 않습니다.
 
 ######################################################################### Floorp Notes ###############################################################
 
