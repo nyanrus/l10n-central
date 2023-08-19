@@ -639,6 +639,13 @@ workspaces-reset-button = Сбросить рабочие пространств
 workspaces-reset-service-title = Рабочие пространства Floorp
 workspaces-reset-warning = Внимние! Выполнение данной операции приведет к удалению всех рабочих пространств и перезапуску браузера.
 
+manage-workspace-on-bms-option =
+    .label = Управление рабочим пространством на боковой панели менеджера браузера
+
+show-workspace-name-option =
+    .label = Отображать название рабочего пространства на кнопке рабочих пространств на панели вкладок.
+
+
 ## Mouse Gesture
 mouse-gesture = Жесты мыши
 mouse-gesture-description = Gesturify должен быть установлен для использования жестов мыши в { -brand-short-name }.
