@@ -237,7 +237,7 @@ visible-bms =
 pane-BSB-title = 브라우저 매니저 사이드바
 bsb-context = 컨테이너 탭을 선택하기
 bsb-userAgent-label =
-  .label = 유저 에이전트를 모바일로 변경하기
+  .label = 사용자 에이전트를 모바일로 변경하기
 bsb-width = 웹 패널의 폭 (만약 0이라면 글로벌 값이 사용됩니다)
 bsb-page = 열 페이지
 
@@ -596,101 +596,101 @@ WebRTC =
 
 ################################################################### browser ###############################################################
 
-rest-mode = 休憩中
-rest-mode-description = 休憩中は、ブラウザーの機能が制限されます。休憩を終了するには、OK をクリックしてください。
+rest-mode = 휴식 중
+rest-mode-description = 휴식 중에는 브라우저의 기능이 제한됩니다. 휴식을 끝내기 위해서는 OK 를 클릭해주세요.
 
 Sidebar2 =
-  .label = ブラウザーマネージャーサイドバー
-  .tooltiptext = サイドバーの表示を切り替える
+  .label = 브라우저 매니저 사이드 바
+  .tooltiptext = 사이드 바의 표시를 전환하기
 
 sidebar2-mute-and-unmute =
-  .label = サイドバーの音声をミュート/ミュート解除する
+  .label = 사이드 바의 소리를 뮤트/뮤트 해제하기
 
 sidebar2-unload-panel =
-  .label = このパネルをアンロードする
+  .label = 이 패널을 언로드 하기
 
 sidebar2-change-ua-panel =
-  .label = このパネルでユーザーエージェントをモバイル/デスクトップに切り替える
+  .label = 이 패널에서 사용자 에이전트를 모바일/데스크탑으로 전환하기
 
 sidebar2-delete-panel =
-  .label = このパネルをサイドバーから削除
+  .label = 이 패널을 사이드 바로부터 삭제
 
 sidebar-close-button =
-  .tooltiptext = サイドバーを閉じる
+  .tooltiptext = 사이드 바를 닫기
 
 sidebar-back-button =
-  .tooltiptext = 戻る
+  .tooltiptext = 돌아가기
 
 sidebar-forward-button =
-  .tooltiptext = 進む
+  .tooltiptext = 나아가기
 
 sidebar-reload-button =
-  .tooltiptext = リロード
+  .tooltiptext = 리로드
 
 sidebar-muteAndUnmute-button =
-  .tooltiptext = サイドバーの音声をミュート/ミュート解除する
+  .tooltiptext = 사이드 바의 소리를 뮤트/뮤트 해제하기
 
-sidebar2-browser-manager-sidebar = ブラウザマネージャーツール
+sidebar2-browser-manager-sidebar = 브라우저 매니저 툴
 
 show-browser-manager-sidebar =
-  .tooltiptext = { sidebar2-browser-manager-sidebar }を表示する
+  .tooltiptext = { sidebar2-browser-manager-sidebar }를 표시하기
 
-sidebar2-bookmark-sidebar = ブックマーク
+sidebar2-bookmark-sidebar = 북마크
 
 show-bookmark-sidebar =
-  .tooltiptext = { sidebar2-bookmark-sidebar }サイドバーを表示する
+  .tooltiptext = { sidebar2-bookmark-sidebar } 사이드 바를 표시하기
 
-sidebar2-history-sidebar = 履歴
+sidebar2-history-sidebar = 기록
 
 show-history-sidebar =
-  .tooltiptext = { sidebar2-history-sidebar }サイドバーを表示する
+  .tooltiptext = { sidebar2-history-sidebar } 사이드 바를 표시하기
 
-sidebar2-download-sidebar = ダウンロード
+sidebar2-download-sidebar = 다운로드
 
 show-download-sidebar =
-  .tooltiptext = { sidebar2-download-sidebar }を表示する
+  .tooltiptext = { sidebar2-download-sidebar }를 표시하기
 
 sidebar2-notes-sidebar = Notes
 
 show-notes-sidebar =
-  .tooltiptext = { sidebar2-notes-sidebar }サイドバーを表示する
+  .tooltiptext = { sidebar2-notes-sidebar } 사이드 바를 표시하기
 
 sidebar2-TST-sidebar = TST
 
 show-TST-sidebar =
-  .tooltiptext = { sidebar2-TST-sidebar } サイドバーを表示する
+  .tooltiptext = { sidebar2-TST-sidebar } 사이드 바를 표시하기
 
 sidebar-add-button =
   .tooltiptext = { bsb-add }
 
 sidebar-addons-button =
-  .tooltiptext = アドオンマネージャーを開く
+  .tooltiptext = 애드온 관리자를 열기
 
 sidebar-passwords-button =
-  .tooltiptext = パスワードマネージャーを開く
+  .tooltiptext = 비밀번호 관리자를 열기
 
 sidebar-preferences-button =
-  .tooltiptext = 設定を開く
+  .tooltiptext = 설정을 열기
 
 sidebar-keepWidth-button =
-  .tooltiptext = このパネルで現在のサイズを記憶する
+  .tooltiptext = 이 패널에서 현재의 크기를 기억하기
 
 sidebar2-keep-width-for-global =
-  .label = 現在のサイズをウェブパネルの幅のグローバル値として設定する
+  .label = 현재의 크기를 웹 패널의 폭의 글로벌 값으로 설정하기
 
 bsb-context-add =
-  .label = このページをウェブパネルに追加
+  .label = 이 페이지를 웹 패널에 추가
 
 bsb-context-link-add =
-  .label = リンク先をウェブパネルに追加
+  .label = 링크된 내용을 웹 패널에 추가
 
 
 #################################################################### menu panel ############################################################
 
 open-profile-dir =
-    .label = プロファイルフォルダーを開く
+    .label = 프로파일 폴더를 열기
 appmenuitem-reboot =
-    .label = 再起動
+    .label = 재시작
 
 ####################################################################### menu ###############################################################
 
@@ -703,27 +703,27 @@ css-menubar =
     .accesskey = C
 
 rebuild-css =
-    .label = ブラウザー CSS を再構築する
+    .label = 브라우저 CSS 를 재구축하기
     .accesskey = R
 
 make-browsercss-file =
-    .label = ブラウザー CSS ファイルを作成する
+    .label = 브라우저 CSS 파일을 생성하기
     .accesskey = M
 
 open-css-folder =
-    .label = ブラウザー CSS フォルダーを開く
+    .label = 브라우저 CSS 폴더를 열기
     .accesskey = O
 
 edit-userChromeCss-editor =
-    .label = userChrome.css を編集する
+    .label = userChrome.css 를 편집하기
 
 edit-userContentCss-editor =
-    .label = userContent.css を編集する
+    .label = userContent.css 를 편집하기
 
-not-found-editor-path = テキストエディターへのパスが見つかりません！
-set-pref-description = 以下のフォームに使用したいテキストエディターへのパスを入力してください。
-rebuild-complete = 再構築が完了しました。
-please-enter-filename = ファイル名を入力してください。
+not-found-editor-path = 텍스트 에디터로의 경로를 찾을 수 없습니다!
+set-pref-description = 아래의 폼에 사용하고 싶은 텍스트 에디터로의 경로를 입력해 주세요.
+rebuild-complete = 재구축이 완료되었습니다.
+please-enter-filename = 파일 명을 입력해 주세요.
 
 ################################################################### Undo-Closed-Tab ###############################################################
 
