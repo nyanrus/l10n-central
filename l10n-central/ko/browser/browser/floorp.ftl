@@ -425,34 +425,34 @@ floorp-lepton-enable-always-show-page_action =
 tabbar-preferences = 탭 바의 커스터마이즈
 
 floorp-lepton-enable-tabbar-positon-as-titlebar =
-    .label = タブバーをタイトルバーの位置に配置する
+    .label = 탭 바를 타이틀 바의 위치에 배치하기
 floorp-lepton-enable-tabbar-as-urlbar =
-    .label = タブバーを URL バーの位置に配置する
+    .label = 탭 바를 URL 바의 위치에 배치하기
 
-lepton-sidebar-preferences = サイドバーのカスタマイズ
+lepton-sidebar-preferences = 사이드바의 커스터마이즈
 floorp-lepton-enable-overlap-sidebar =
-    .label = サイドバーをウェブサイトビューワーの上にオーバーラップする
+    .label = 사이드바를 웹 사이트 뷰어 위에 덮어 씌우기
 
 floorp-home-mode-choice-default =
-    .label = Floorp Home (既定)
-floorp-home-prefs-content-header = Floorp Home コンテンツ
-floorp-home-prefs-content-description = Floorp Home に表示するコンテンツを選びましょう。
+    .label = Floorp Home (기본값)
+floorp-home-prefs-content-header = Floorp Home 콘텐츠
+floorp-home-prefs-content-description = Floorp Home 에 표시할 콘텐츠를 골라주세요.
 
 ## Notes
 floorp-notes = { -brand-short-name } Notes
-restore-from-backup = Notes をバックアップから復元する
+restore-from-backup = Notes 를 백업으로부터 복원하기
 enable-notes-sync =
- .label = Notes の Firefox Sync による同期を有効にする
-about-notes-backup-tips = Floorp Notes は、Firefox Sync を使用して、他のデバイスとノートを同期します。ノートを紛失した場合、バックアップから復元することができます。バックアップは { -brand-short-name } を起動すると作成されます。
-notes-sync-description = これにより、同期時にメモが上書きされ、コンテンツが失われる問題を解決することができます。
-backuped-time = バックアップ時刻
-notes-backup-option = バックアップ設定
-backup-option-button = バックアップ設定を開く...
+ .label = Notes 의 Firefox Sync 에 의한 동기화를 사용하기
+about-notes-backup-tips = Floorp Notes 는 Firefox Sync 를 사용하여, 다른 기기와 노트를 동기화합니다. 노트를 분실했을 경우 백업으로부터 복원할 수 있습니다. 백업은 { -brand-short-name } 를 켤때 생성됩니다.
+notes-sync-description = 이에 의해 동기화 때 메모가 덮어쓰기되어 콘텐츠가 손실되는 문제를 해결할 수 있습니다.
+backuped-time = 백업 시각
+notes-backup-option = 백업 설정
+backup-option-button = 백업 설정을 열기...
 
-restore-from-backup-prompt-title = Floorp Notes 復元サービス
-restore-from-this-backup = このバックアップの状態に Notes を復元しますか？
+restore-from-backup-prompt-title = Floorp Notes 복원 서비스
+restore-from-this-backup = 이 백업의 상태로 Notes를 복원하시겠습니까?
 
-restore-button = 復元
+restore-button = 복원
 
 ## user.js
 
@@ -815,43 +815,43 @@ open-link-in-external-tab-dialog-message-selected-browser-not-found = 選択さ�
 
 ######################################################################### Floorp Notes ###############################################################
 
-new-memo = 新規作成
-memo-title-input-placeholder = ここにタイトルを入力
-memo-input-placeholder = ここにメモを入力または貼り付け
-delete-memo = 削除
-save-memo = 保存
-memo-welcome-title = Floorp Notes へようこそ !
-memo-first-tip = Floorp Notes へようこそ！ここでは、使い方を説明します。
-memo-second-tip = Floorp Notes は、メモを作成・編集・保存・削除するための機能です。メモは、ブラウザーを閉じても保存されます。また、Firefox Syncを使用して、他の端末にも同期することができます。同期を有効にするには、Floorp に Firefox アカウントでログインしてください。
-memo-third-tip = あなたのメモは Floorp ブラウザーの設定に保存されます。Firefox Sync は、パスワードによって暗号化されているため、あなた以外の他の人に見られることはありません。もちろん Ablaze や Floorp は、あなたのメモを読むことはできません。Firefox Sync はバックアップ機能ではないため、メモは必ずバックアップを取ってください。
-memo-fourth-tip = Floorp Notes は、Floorp のブラウザーマネージャーサイドバーまたは、「about:notes」を URL に入力すること開くことができます。
-memo-new-title = 新規メモ
-chage-view-mode = 編集/表示モード切り替え
+new-memo = 새로운 메모
+memo-title-input-placeholder = 여기에 타이틀을 입력
+memo-input-placeholder = 여기에 메모를 입력 또는 붙여넣기
+delete-memo = 삭제
+save-memo = 저장
+memo-welcome-title = Floorp Notes 에 어서오세요 !
+memo-first-tip = Floorp Notes 에 어서오세요！여기서는 사용 방법을 설명합니다.
+memo-second-tip = Floorp Notes 는 메모를 생성, 편집, 삭제하기 위한 기능입니다. 메모는 브라우저를 닫아도 저장됩니다. 또한 Firefox Sync를 사용하여 다른 단말기에도 동기화할 수 있습니다. 동기화를 사용하기 위해서는 Floorp 에 Firefox 계정으로 로그인해 주세요.
+memo-third-tip = 당신의 메모는 Floorp 브라우저의 설정에 저장됩니다.Firefox Sync 는 비밀번호에 의해 암호화되어 있으므로, 당신 이외의 타인에게 보여지는 경우는 없습니다. 또한, Ablaze와 Floorp 는 당신의 메모를 읽을 수 없습니다. Firefox Sync는 백업 기능이 아니므로 메모는 무조건 백업을 해 주세요.
+memo-fourth-tip = Floorp Notes 는 Floorp 의 브라우저 매니저 사이드바 또는 "about:notes"를 URL에 입력하는 것으로 열 수 있습니다.
+memo-new-title = 새로운 매모
+chage-view-mode = 편집/표시 모드 변경
 
 ######################################################################### workspace ###############################################################
 
-workspace-prompt-title = Floorp ワークスペース
-please-enter-workspace-name = 新しいワークスペース名を入力してください。
-please-enter-workspace-name-2 = 記号と空白以外の文字かつ20文字以内で入力してください。
-workspace-error = エラー！
-workspace-error-discription = ワークスペース名が空白、長すぎるか既に存在します。
+workspace-prompt-title = Floorp 워크스페이스
+please-enter-workspace-name = 새로운 워크스페이스 이름을 입력해주세요.
+please-enter-workspace-name-2 = 기호와 공백 이외의 문자 또한 20문자 이내로 입력해 주세요.
+workspace-error = 에러！
+workspace-error-discription = 워크스페이스 이름이 공백, 너무 길거나 이미 존재합니다.
 
-workspace-button = ワークスペース
-  .label = ワークスペース
-  .tooltiptext = ワークスペース
+workspace-button = 워크스페이스
+  .label = 워크스페이스
+  .tooltiptext = 워크스페이스
 
-workspace-default = デフォルト
+workspace-default = 기본
 workspace-add =
- .label= ワークスペースを追加
+ .label= 워크스페이스를 추가
 
 workspace-context-menu-selected-tab =
- .label = 表示中のタブは他のワークスペースに移動できません。
+ .label = 표시중인 탭은 다른 워크스페이스로 이동할 수 없습니다.
 move-tab-another-workspace =
- .label = 他のワークスペースに移動
+ .label = 다른 워크스페이스로 이동
 workspace-rename =
-  .label = ワークスペース名を変更
+  .label = 워크스페이스 이름을 바꾸기
 workspace-delete =
-  .label = ワークスペースを削除
+  .label = 워크스페이스를 삭제
 
 ######################################################################### Share mode ###############################################################
 
@@ -875,7 +875,7 @@ floorp-show-all-downloads =
 welcome-login-to-firefox-account = Firefox 계정에 로그인
 welcome-to-floorp = { -brand-short-name } 에 어서오세요!
 welcome-discribe-floorp = { -brand-short-name } 는 Firefox 기반의 다양한 기능을 탑재한, 일본에서 개발되고 있는 유연한 브라우저입니다!
-welcome-start-setup = 시작 설정을 시작하기
+welcome-start-setup = 셋업을 시작하기
 welcome-skip-to-start-browsing = 지금 바로 브라우징을 시작하기
 welcome-select-preferences-template = 템플릿을 선택
 welcome-minimum-template = 매
@@ -886,17 +886,17 @@ welcome-maximum-template = 송
 welcome-enable-most-of-features = 고도의 기능과 설정을 사용합니다. Geek한 유저에게 추천드립니다.
 welcome-go-next-setup = 다음
 welcome-select-browser-design = 브라우저의 디자인을 선택
-welcome-discribe-browser-design = サードパーティによる素晴らしいデザインから { -brand-short-name } のデザインを 1 つを選ぶことができます。OS 固有のデザインも about:preferences で利用可能です。
+welcome-discribe-browser-design = 서드파티에 의한 훌륭한 디자인으로부터 { -brand-short-name }  의 디자인을 1개 고를 수 있습니다. OS 고유의 디자인도 about:preferences 에서 이용할 수 있습니다.
 welcome-design-lepton-name = Lepton 오리지널 디자인
 welcome-design-photon-name = Lepton Photon 디자인
 welcome-design-ProtonFix-name = Lepton ProtonFix 디자인
 welcome-design-floorp-fluerial-name = Floorp Fluerial 디자인
 welcome-design-firefox-proton-name = Firefox Proton 디자인
-welcome-import-data = ユーザーデータのインポート
-welcome-import-data-description = 迅速なセットアップ！古いブラウザからブックマークやパスワードなどをインポートできます。Firefox ユーザーは Firefox Sync からデータをインポートできます。
-welcome-import-data-button = インポートを実行する
-welcome-import-data-skip = インポートをスキップする
+welcome-import-data = 유저 데이터의 임포트
+welcome-import-data-description = 신속한 셋업! 다른 브라우저로부터 북마크나 비밀번호 등을 임포트할 수 있습니다. Firefox 유저는 Firefox Sync 에서 데이터를 임포트할 수 있습니다.
+welcome-import-data-button = 임포트를 실행하기
+welcome-import-data-skip = 임포트를 스킵하기
 welcome-select-button = 선택
-welcome-finish-setup = セットアップを完了！
-welcome-finish-setup-description = これで設定完了です！垂直タブ・アドオン等のその他の設定は、about:preferences から確認できます。{ -brand-short-name } をお楽しみください !
-welcomet-finish-setup = ブラウジングを開始する
+welcome-finish-setup = 셋업 완료!
+welcome-finish-setup-description = 이것으로 설정을 완료했습니다! 수직 탭, 애드온 등 그 외의 설정은 about:preferences 에서 확인할 수 있습니다. { -brand-short-name } 를 즐겨주세요!
+welcomet-finish-setup = 브라우징을 시작하기
