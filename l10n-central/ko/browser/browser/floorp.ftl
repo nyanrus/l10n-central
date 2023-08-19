@@ -476,25 +476,31 @@ apply-userjs-button = 적용하기
 ## userjs Options
 
 default-userjs-label = Floorp Default
-about-default-userjs = テレメトリー無効。様々なカスタマイズが有効なバランスの良い { -brand-short-name } 設定です。
+about-default-userjs = Telemetry 무효. 여러 커스터마이즈가 가능한 밸런스 좋은 { -brand-short-name } 설정입니다.
 
 Securefox-label = Yokoffing Securefox
-about-Securefox = HTTPS をデフォルトで有効に。サイト分離による Total Cookie Protection。状態やネットワークのパーティショニングを強化。その他、様々な機能強化。
+about-Securefox = HTTPS 를 기본 설정으로.
+  사이트 분리에 의한 Total Cookie Protection.
+  상태나 네트워크의 파티셔닝을 강화.
+  그 외 여러 기능 강화.
 
 default-label = Yokoffing Default
-about-default = 必要なものはすべて。壊れることはありません。これが、あなたの user.js です。
+about-default = 필요한 것은 모두. 부서질 일은 없습니다. 이것이 당신의 user.js 입니다.
 
 Fastfox-label = Yokoffing Fastfox
-about-Fastfox = { -brand-short-name } の閲覧速度を圧倒的に向上させる。Chrome 以上の速度を！
+about-Fastfox = { -brand-short-name } 의 열람 속도를 압도적으로 증가시킨다. 크롬 이상의 속도를!
 
 Peskyfox-label = Yokoffing Peskyfox
-about-Peskyfox = 新しいタブページの整理をする。ポケットを削除する。コンパクトモードをオプションで復活させる。ウェブページの通知、ポップアップ、その他の迷惑行為を停止する。
+about-Peskyfox = 새로운 탭 페이지의 정리를 한다.
+  포켓을 삭제한다.
+  컴팩트 모드를 옵션으로 부활시킨다.
+  웹 페이지의 알림, 팝업, 그 외의 성가진 행위를 정지시킨다.
 
 Smoothfox-label = Yokoffing Smoothfox
-about-Smoothfox = Edge のようなスムーズなスクロールを、お気に入りのブラウザで実現することができます。
+about-Smoothfox = Edge 와 같은 스무즈한 스크롤을. 마음에 든 브라우저에서 실현할 수 있습니다.
 
 # workspaces
-floorp-workspaces-title = { -brand-short-name } ワークスペース
+floorp-workspaces-title = { -brand-short-name } 워크스페이스
 workspaces-backup-discription = ワークスペースのバックアップと復元
 workspaces-restore-service-title = ワークスペース復元サービス
 workspaces-restore-warning = 警告: この操作を実行すると、現在のワークスペースが上書きされ、ブラウザーが数秒の間使えなくなり、ワークスペースが復元されます。この操作は取り消せません。
