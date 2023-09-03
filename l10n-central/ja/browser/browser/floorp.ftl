@@ -20,7 +20,11 @@ feature-requires-restart = この機能を変更するには { -brand-short-name
 tab-width = タブの最小幅
 preferences-tabs-newtab-position = 新しいタブの開く位置
 open-new-tab-use-default =
- .label = デフォルトの設定を使用
+ .label =
+      { PLATFORM() ->
+        [macos] デフォルト設定を使用
+       *[other] 既定の設定を使用
+     }
 open-new-tab-at-the-end =
  .label = 新しいタブをタブバーの最後の位置に開く
 open-new-tab-next-to-current =
@@ -202,7 +206,12 @@ appmenuitem-reboot =
 
 UserAgent-preference = ユーザーエージェント
 default-useragent-mode =
- .label = Firefox のユーザーエージェントを使用する (デフォルト)
+ .label =
+    { PLATFORM() ->
+        [macos] デフォルトユーザーエージェントを使用する
+       *[other] 既定のユーザーエージェントを使用する
+    }
+
 windows-chrome-useragent-mode =
  .label = Windows 上の Chrome のユーザーエージェントを使用する
 macOS-chrome-useragent-mode =
@@ -476,8 +485,12 @@ default-userjs-label = Floorp Default
 about-default-userjs = テレメトリー無効。様々なカスタマイズが有効なバランスの良い { -brand-short-name } 設定です。
 
 Securefox-label = Yokoffing Securefox
-about-Securefox = HTTPS をデフォルトで有効に。サイト分離による Total Cookie Protection。状態やネットワークのパーティショニングを強化。その他、様々な機能強化。
-
+about-Securefox =
+  { PLATFORM() ->
+     [macos] HTTPS を既定で有効に。サイト分離による Total Cookie Protection。状態やネットワークのパーティショニングを強化。その他、様々な機能強化。
+    *[other] HTTPS を既定で有効に。サイト分離による Total Cookie Protection。状態やネットワークのパーティショニングを強化。その他、様々な機能強化。
+  }
+    
 default-label = Yokoffing Default
 about-default = 必要なものはすべて。壊れることはありません。これが、あなたの user.js です。
 
@@ -512,7 +525,10 @@ workspaces-reset-warning = 警告！この操作を実行すると、すべて�
 
 manage-workspace-on-bms-option =
     .label = ブラウザーマネージャーサイドバーでワークスペースを管理する
-
+show-workspace-name-option =
+    .label = ワークスペース名を常にアイコンの隣に表示する
+change-workspace-with-default-key-option =
+    .label = ワークスペースを ↑ または、 ↓ SHIFT キーを同時押しで切り替える
 workspaces-manage-title = ワークスペースの管理
 workspaces-manage-description = ワークスペースの管理を開きます。アイコンの変更を行えます。
 workspaces-manage-label =
@@ -566,11 +582,27 @@ CSK-manage-title = カスタムショートカットキーの管理
 CSK-remove-shortcutkey = ショートカットキーの削除
 CSK-remove-shortcutkey-description = 本当にこのショートカットキーを削除しますか？
 
-CSK-restore-default = デフォルトに戻す
-CSK-restore-default-description = これらの設定をデフォルトに戻します。現在の設定は失われます。
+CSK-restore-default = 
+    { PLATFORM() ->
+        [macos] HTTPS をデフォルトで有効に。サイト分離による Total Cookie Protection。状態やネットワークのパーティショニングを強化。その他、様々な機能強化。
+       *[other] HTTPS を既定で有効に。サイト分離による Total Cookie Protection。状態やネットワークのパーティショニングを強化。その他、様々な機能強化。
+    }
+
+CSK-restore-default-description = 
+    { PLATFORM() ->
+        [macos] これらの設定をデフォルトに戻します。現在の設定は失われます
+       *[other] これらの設定を既定に戻します。現在の設定は失われます
+    }
 
 ### Exsit shortcut key: "S", "shift"
-CSK-keyborad-shortcut-info = 設定されているショートカットキー：
+CSK-keyborad-shortcut-info = "{ $key }" と "{ $modifiers }" の組み合わせが設定されています。
+
+disable-fx-actions =
+ .label = Firefox のキーボードショートカットを無効にする
+customize-Action =
+ .label = このアクションをカスタマイズ
+remove-Action =
+ .label = このアクションを削除
 
 floorp-custom-actions-tab-action = タブのアクション
 floorp-custom-actions-page-action = ページのアクション
@@ -584,6 +616,7 @@ floorp-custom-actions-pip-action = ピクチャーインピクチャーのアク
 floorp-custom-actions-downloads-action = ダウンロードのアクション
 floorp-custom-actions-sidebar-action = サイドバーのアクション
 floorp-custom-actions-bms-action = ブラウザーマネージャーサイドバーのアクション
+floorp-custom-actions-workspace-action = ワークスペースのアクション
 
 ## mouse Gesture
 mouse-gesture = マウスジェスチャー
@@ -609,7 +642,11 @@ about-Facebook-Container = Facebook がウェブ上であなたを追跡する�
 
 ## Fingerprint
 fingerprint-header = フィンガープリント & IP アドレスの漏洩対策
-block-fingerprint = フィンガープリンティングは、ブラウザとオペレーティングシステムの固有の機能に依存する追跡メカニズムです。このセクションでは、デフォルトのブロックを超えてこの保護をさらに強化するための設定が含まれています。
+block-fingerprint =
+    { PLATFORM() ->
+        [macos] フィンガープリンティングは、ブラウザとオペレーティングシステムの固有の機能に依存する追跡メカニズムです。このセクションでは、デフォルトのブロックを超えてこの保護をさらに強化するための設定が含まれています。
+       *[other] フィンガープリンティングは、ブラウザとオペレーティングシステムの固有の機能に依存する追跡メカニズムです。このセクションでは、既定のブロックを超えてこの保護をさらに強化するための設定が含まれています。
+    }
 enable-firefox-fingerprint-protections = フィンガープリントに対する強力な保護を有効にする
 about-firefox-fingerprint-protection = Firefox によるフィンガープリント保護を有効にした場合、強制ライトモード、一部の API を無効にするなどのデメリットがあります。一部のサイトが壊れる可能性もあります。
 fingerprint-Protection =
@@ -837,10 +874,18 @@ open-link-in-external-enabled-option =
  .label = 「外部ブラウザーで開く」機能を有効にする
 open-link-in-external-select-browser-option = 「外部ブラウザーで開く」で開くブラウザー
 open-link-in-external-select-browser-option-default =
- .label = デフォルトのブラウザー
+ .label =
+     { PLATFORM() ->
+        [macos] デフォルトブラウザー
+       *[other] 既定のブラウザー
+     }
 open-link-in-external-tab-context-menu = 外部ブラウザーで開く
 open-link-in-external-tab-dialog-title-error = エラー
-open-link-in-external-tab-dialog-message-default-browser-not-found = デフォルトのブラウザーが存在しないか、設定されていません。
+open-link-in-external-tab-dialog-message-default-browser-not-found =
+     { PLATFORM() ->
+        [macos] デフォルトブラウザーが存在しないか、設定されていません。
+       *[other] 既定のブラウザーが存在しないか、設定されていません。
+     }
 open-link-in-external-tab-dialog-message-selected-browser-not-found = 選択されたブラウザーは存在しません。
 
 ######################################################################### Floorp Notes ###############################################################
@@ -870,7 +915,12 @@ workspace-button = ワークスペース
   .label = ワークスペース
   .tooltiptext = ワークスペース
 
-workspace-default = デフォルト
+workspace-default = 
+  .label =
+     { PLATFORM() ->
+        [macos] デフォルトブラウザー
+       *[other] 既定のブラウザー
+     }
 workspace-add = 
  .label= ワークスペースを追加
 
@@ -944,7 +994,7 @@ shortcutkey-customize-key-list-placeholder = 入力されたキー
 shortcut-key-label = アクションに使用するキー
 start-input-button-listen = キー読み取り開始
 end-input-button-listen = キー読み取り終了
-shortcut-key-description = 「キー読み取り開始」をクリックし、ショートカットキーとして使用したいキーを押します。一部では複数のキーを使用することもできます。
+shortcut-key-description = 「キー読み取り開始」をクリックし、ショートカットキーとして使用したいキーを押します。一部では複数のキーを使用することもできます。他のアクションと重複しないようにしてください。
 
 floorp-custom-actions-open-new-tab = 新しいタブを開く
   .label = 新しいタブを開く
@@ -1072,3 +1122,20 @@ floorp-custom-actions-hide-sidebar = サイドバーを隠す
   .label = サイドバーを隠す
 floorp-custom-actions-toggle-sidebar = サイドバーの表示を切り替え
   .label = サイドバーの表示を切り替え
+floorp-custom-actions-open-previous-workspace = 前のワークスペースを開く
+  .label = 前のワークスペースを開く
+floorp-custom-actions-open-next-workspace = 次のワークスペースを開く
+  .label = 次のワークスペースを開く
+
+############################################################# プロファイルスイッチャー ###############################################################
+
+floorp-open-profile-with-new-instance = 開く
+ .tooltiptext = 開く
+floorp-profiles-in-use = このプロファイルは使用中です。
+floorp-profiles-title = プロファイル
+floorp-profiles-create = プロファイルを作成
+floorp-profile-manager = プロファイルマネージャー
+ .label = プロファイルマネージャー
+ .tooltiptext = プロファイルマネージャーを開く
+show-workspace-name-option = ワークスペース名をタブバーに表示
+    .label = ワークスペース名をタブバーに表示
