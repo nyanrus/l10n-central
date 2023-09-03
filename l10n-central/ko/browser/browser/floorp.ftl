@@ -402,7 +402,7 @@ floorp-lepton-enable-bookmarkbar_icon-hide =
 floorp-lepton-enable-bookmarkbar_label-hide =
     .label = 북마크 바의 라벨 명을 표시하지 않기
 floorp-lepton-enable-disabled_menu-hide =
-    .label = 無効なコンテストメニュー・メニューを非表示にする
+    .label = 무효한 컨텍스트 메뉴 및 메뉴를 표시하지 않기
 
 positon-preferences = 위치의 커스터마이즈
 
@@ -464,7 +464,7 @@ userjs-customize = user.js 로 { -brand-short-name } 를 커스터마이즈 하�
 about-userjs-customize = user.js는 { -brand-short-name } 를 커스터마이즈 하기 위한 설정 파일입니다.
   user.js 는 인터넷으로부터 다운로드되어 기존의 user.js 파일을 덮어 씌웁니다.
   기존의 user.js 의 백업을 하고 사용해주세요.
-  다운로드되는 user.js에 의해 발생한 문제는 Floorp 는 관계가 없는 것으로 처리됩니다.
+  다운로드되는 user.js에 의해 발생한 문제는 Floorp 와는 관계가 없는 것으로 처리됩니다.
 
 userjs-label = user.js 목록
 userjs-prompt = Floorp user.js
@@ -501,40 +501,40 @@ about-Smoothfox = Edge 와 같은 스무즈한 스크롤을. 마음에 든 브�
 
 # workspaces
 floorp-workspaces-title = { -brand-short-name } 워크스페이스
-workspaces-backup-discription = ワークスペースのバックアップと復元
-workspaces-restore-service-title = ワークスペース復元サービス
-workspaces-restore-warning = 警告: この操作を実行すると、現在のワークスペースが上書きされ、ブラウザーが数秒の間使えなくなり、ワークスペースが復元されます。この操作は取り消せません。
+workspaces-backup-discription = 워크스페이스의 백업과 복원
+workspaces-restore-service-title = 워크스페이스 복원 서비스
+workspaces-restore-warning = 경고: 이 조작을 실행하면, 현재의 워크스페이스가 덮어씌워져, 브라우저가 몇초간 사용할 수 없게 되며, 워크스페이스가 복원됩니다. 이 조작은 취소할 수 없습니다.
 
 change-to-close-workspace-popup-option =
- .label = ワークスペース選択時にワークスペースのポップアップを閉じる
+ .label = 워크스페이스 선택시 워크스페이스의 팝업을 닫기
 pinned-tabs-exclude-workspace-option =
- .label = ワークスペースに固定されたタブを含めない
+ .label = 워크스페이스에 고정된 탭을 포함하지 않기
 
-workspaces-reset-title = ワークスペースのリセット
+workspaces-reset-title = 워크스페이스의 리셋
 workspaces-reset-label =
-    .label = ワークスペースのリセット
-workspaces-reset-description = ワークスペースをリセットするとグループ化が解除され、初期状態に戻ります。
-workspaces-reset-button = ワークスペースのリセットを実行する...
+    .label = 워크스페이스의 리셋
+workspaces-reset-description = 워크스페이스를 리셋하면, 그룹화가 해제되며, 초기상태로 되돌아갑니다.
+workspaces-reset-button = 워크스페이스의 리셋을 실행하기...
 
-workspaces-reset-service-title = Floorp ワークスペース
-workspaces-reset-warning = 警告！この操作を実行すると、すべてのワークスペースが削除され、ブラウザーが数秒間使えなくなります。この操作は取り消せません。
+workspaces-reset-service-title = Floorp 워크스페이스
+workspaces-reset-warning = 경고! 이 조작을 실행하면, 모든 워크스페이스가 삭제되며, 브라우저가 몇초간 사용할 수 없게 됩니다. 이 조작은 취소할 수 없습니다.
 
 manage-workspace-on-bms-option =
-    .label = ブラウザーマネージャーサイドバーでワークスペースを管理する
+    .label = 브라우저 매니저 사이드바에서 워크스페이스를 관리하기
 
-workspaces-manage-title = ワークスペースの管理
-workspaces-manage-description = ワークスペースの管理を開きます。アイコンの変更を行えます。
+workspaces-manage-title = 워크스페이스의 관리
+workspaces-manage-description = 워크스페이스의 관리를 엽니다. 아이콘을 변경할 수 있습니다.
 workspaces-manage-label =
-    .label = ワークスペースの管理
+    .label = 워크스페이스의 관리
 
-workspaces-manage-button  = ワークスペースマネージャーを開く...
+workspaces-manage-button  = 워크 스페이스 매니저를 열기...
 
-select-workspace = ワークスペースを選択
-workspace-select-icon = アイコンを選択
- .label = アイコンを選択
+select-workspace = 워크스페이스를 선택
+workspace-select-icon = 아이콘을 선택
+ .label = 아이콘을 선택
 
 workspace-customize =
- .title = ワークスペースのカスタマイズ
+ .title = 워크스페이스의 커스터마이즈
 
 workspace-icon-briefcase =
  .label = 일
