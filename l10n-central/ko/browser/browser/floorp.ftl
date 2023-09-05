@@ -63,7 +63,7 @@ None-mode =
  .label= 일반 모드 (변경 없음)
 
 hide-horizontality-tabs =
- .label= { -brand-short-name } の組み込みのタブバーを隠す
+ .label= { -brand-short-name } 의 내장 탭 바 숨기기
 
 verticalTab-setting =
  .label = 수직 탭에 브라우저를 최적화 (Mac에서 호환되지 않습니다)
@@ -565,43 +565,59 @@ workspace-icon-chill =
 
 
 ## mouse Gesture
-mouse-gesture = マウスジェスチャー
-mouse-gesture-description = { -brand-short-name } でマウスジェスチャを使用するには、Gesturefy がインストールされている必要があります。
+mouse-gesture = 마우스 제스처
+mouse-gesture-description = { -brand-short-name } 에서 마우스 제스처를 사용하기 위해서는, Gesturefy가 설치되어야 합니다.
 Gesturefy = Gesturefy
-about-Gesturefy = Gesturefy はブラウザにマウスジェスチャを追加する拡張機能です。{ -brand-short-name } がこのアドオンのインストールを検出すると、{ -brand-short-name } でしか利用できないジェスチャーコマンドを Gesturefy に追加します。また、このアドオンは新しいタブで動作可能です。
+about-Gesturefy = Gesturefy 는 브라우저에 마우스 제스터를 추가하는 확장 기능입니다.
+  { -brand-short-name } 가 이 애드온의 설치를 검출하면,
+  { -brand-short-name } 에서밖에 이용할 수 없는 제스처 커맨드를 Gesturefy에 추가합니다.
+  또한 이 애드온은 새로운 탭에서 동작할 수 있습니다.
 
 ## Translate
 
 TWS = Translate Web Page
-about-TWS = Google や Yandexを使って、リアルタイムでページを翻訳します。選択したテキストやページ全体を翻訳することも可能です。新しいタブを開く必要はありません。ウェブページのテキストは、Google や Yandex などに送信されて翻訳されます。
+about-TWS = Google 또는 Yandex 를 사용하여,
+  실시간으로 페이지를 번역합니다.
+  선택된 텍스트 또는 페이지 전체를 번역할 수 있습니다.
+  새로운 탭을 열 필요는 없습니다.
+  웹 페이지의 텍스트는 Google 또는 Yandex 등에 전송되어, 번역됩니다.
 
 # Privacy Hub
 ## BlockMoreTracker
-privacy-hub-header = プライバシーハブ
-block-more-tracker = 更に多くの追跡を遮断する
-block-tracker = このセクションでは、ウイルスやトラッカーをブロックするために設計された拡張機能のセットの情報を提供します。これらの拡張機能は、{ -brand-short-name } によって自動的に検出され、表示されます。
-view-at-AMO = このアドオンを addons.mozilla.org で見る
+privacy-hub-header = 프라이버시 허브
+block-more-tracker = 더 많은 추적을 차단하기
+block-tracker = 이 섹션에서는, 바이러스나 트랙커를 차단하기 위해서 설계된
+  확장 기능의 모음 정보를 제공합니다.
+  이들 확장기능은, { -brand-short-name } 에 의해 자동으로 검출되며, 표시됩니다.
+view-at-AMO = 이 애드온을 addons.mozilla.org 에서 보기
 uBlock-Origin = uBlock Origin
-about-uboori = uBlock Originは、コンテンツフィルタリングのためのブラウザ拡張機能の１つであり、効率的かつ使いやすい方法でプライバシーの保護を主な目的としています。uBlock Originは、広告ブロッカーとしても機能します。
+about-uboori = uBlock Origin는, 콘텐츠 필터링을 위한 브라우저 확장 기능의 하나이며,
+  효율적이고 사용하기 쉬운 방법으로
+  프라이버시의 보호를 주된 목적으로 하고 있습니다.
+  uBlock Origin은, 광고 차단기의 역할도 겸합니다.
 Facebook-Container = Facebook Container
-about-Facebook-Container = Facebook がウェブ上であなたを追跡するのを防ぎましょう。Mozilla によって提供される Facebook Container アドオンは、あなたのウェブ活動を Facebook から切り離すのに役立ちます。
+about-Facebook-Container = Facebook 가 웹 상에서 당신을 추적하는걸 막읍시다.
+  Mozilla 에 의해 제공되는 Facebook Container 애드온은, 당신의 웹 활동을 Facebook으로부터 분리할 수 있도록 도움을 줍니다.
 
 ## Fingerprint
-fingerprint-header = フィンガープリント & IP アドレスの漏洩対策
-block-fingerprint = フィンガープリンティングは、ブラウザとオペレーティングシステムの固有の機能に依存する追跡メカニズムです。このセクションでは、デフォルトのブロックを超えてこの保護をさらに強化するための設定が含まれています。
-enable-firefox-fingerprint-protections = フィンガープリントに対する強力な保護を有効にする
-about-firefox-fingerprint-protection = Firefox によるフィンガープリント保護を有効にした場合、強制ライトモード、一部の API を無効にするなどのデメリットがあります。一部のサイトが壊れる可能性もあります。
+fingerprint-header = 핑거프린트 & IP 주소의 유출 대책
+block-fingerprint = 핑거 프린팅은, 브라우저와 OS의 고유 기능에 의존하는 추적 메커니즘입니다.
+  이 섹션에서는, 기본의 차단을 넘어서 이 보호를 더욱 강화하기 위한 설정이 포함되어 있습니다.
+enable-firefox-fingerprint-protections = 핑거프린트에 대한 강력한 보호를 사용하기
+about-firefox-fingerprint-protection = Firefox 에 의한 핑거프린트 보호를 사용할 경우, 강제 라이트모드, 일부의 API를 무효화 하는 등의 단점이 있습니다.
+  일부 사이트가 고장날 가능성도 있습니다.
 fingerprint-Protection =
- .label =  フィンガープリント保護
+ .label =  핑거프린트 보호
 html5-canvas-prompt-settings =
- .label =  HTML5 画像データのアクセス確認プロンプトを自動承認する
-canvas-prompt = キャンバス読み取りのプロンプトを自動で拒否する
+ .label =  HTML5 이미지 데이터의 접근 확인 프롬프트를 자동 승인하기
+canvas-prompt = 캔버스 읽기의 프롬프트를 자동 거부하기
 disable-webgl =
- .label =  WebGL を無効にする
-about-webgl = WebGL は、グラフィックを描画するための Javascript API で、GPU を識別するために使用されることがあります。
-WebRTC-connection = WebRTC は、リアルタイム通話を実現する規格です。この設定を無効にすると、Discord などが使えなくなります。
+ .label =  WebGL 을 무효화하기
+about-webgl = WebGL 는, 그래픽을 묘사하기 위한 Javascript API 이며, GPU 를 판별하기 위해서 사용될 수 있습니다.
+WebRTC-connection = WebRTC 는 실시간 통화를 실현하는 규격입니다.
+  이 설정을 무효화할 경우, Discord 등을 사용할 수 없게 됩니다.
 WebRTC =
- .label = WebRTC 接続を有効にする
+ .label = WebRTC 접속을 사용하기
 
 ################################################################### browser ###############################################################
 
@@ -789,15 +805,15 @@ gf-floorp-show-statusbar-description = Floorp 의 상태 바를 표시합니다.
 gf-floorp-hide-statusbar-name = [Floorp] 상태 바를 표시하지 않기
 gf-floorp-hide-statusbar-description = Floorp 의 상태 바를 표시하지 않습니다.
 
-gf-floorp-toggle-statusbar-name = [Floorp] ステータスバーの表示を切り替え
-gf-floorp-toggle-statusbar-description = ステータスバーを表示または非表示にします。
+gf-floorp-toggle-statusbar-name = [Floorp] 스테이터스 바의 표시 전환
+gf-floorp-toggle-statusbar-description = 스테이터스 바를 표시 또는 비표시로 합니다.
 
-gf-floorp-open-extension-sidebar-name = [Floorp] サイドバーで選択したアドオンを開く
-gf-floorp-open-extension-sidebar-description = サイドバーで指定したアドオンを開きます。
-gf-floorp-open-extension-sidebar-settings-addons-id = アドオン ID
-gf-floorp-open-extension-sidebar-settings-addons-id-description = サイドバーで開くアドオンです。
-gf-floorp-open-extension-sidebar-settings-list-default = アドオンを選択してください
-gf-floorp-open-extension-sidebar-settings-list-unknwon = 不明なアドオン
+gf-floorp-open-extension-sidebar-name = [Floorp] 사이드 바에서 선택한 애드온을 열기
+gf-floorp-open-extension-sidebar-description = 사이드 바에서 지정한 애드온을 엽니다.
+gf-floorp-open-extension-sidebar-settings-addons-id = 애드온 ID
+gf-floorp-open-extension-sidebar-settings-addons-id-description = 사이드 바에서 열 애드온입니다.
+gf-floorp-open-extension-sidebar-settings-list-default = 애드온을 선택해 주세요
+gf-floorp-open-extension-sidebar-settings-list-unknwon = 알 수 없는 애드온
 ##################################################################### Floorp System Update Portable Version ###############################################################
 
 update-portable-notification-found-title = Floorp 의 최신 버전이 릴리스되었습니다.
