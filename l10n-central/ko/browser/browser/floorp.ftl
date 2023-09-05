@@ -20,7 +20,11 @@ feature-requires-restart = 이 기능을 바꾸기 위해서 { -brand-short-name
 tab-width = 탭의 최저폭
 preferences-tabs-newtab-position = 새로운 탭을 여는 위치
 open-new-tab-use-default =
- .label = 기본 설정을 사용
+ .label =
+      { PLATFORM() ->
+        [macos] 디폴트 설정을 사용
+       *[other] 기존 설정을 사용
+     }
 open-new-tab-at-the-end =
  .label = 새로운 탭을 탭바의 마지막 위치에 열기
 open-new-tab-next-to-current =
@@ -55,7 +59,7 @@ enable-double-click-block =
 enable-show-pinned-tabs-title =
  .label = 핀으로 고정된 탭의 타이틀을 보여주기
 Mouse-side-button =
-  .label =「進む」・「戻る」ボタンを隠す
+  .label ="나아가기", "돌아가기" 버튼을 숨기기
 
 tabbar-preference = 탭 바 설정 (실험적)
 
@@ -202,7 +206,11 @@ appmenuitem-reboot =
 
 UserAgent-preference = 사용자 에이전트 (User Agent)
 default-useragent-mode =
- .label = Firefox 의 사용자 에이전트를 사용하기 (기본)
+ .label =
+    { PLATFORM() ->
+        [macos] 디폴트 사용자 에이전트를 사용하기
+       *[other] 기존의 사용자 에이전트를 사용하기
+    }
 windows-chrome-useragent-mode =
  .label = Windows 상의 Chrome 의 사용자 에이전트를 사용하기
 macOS-chrome-useragent-mode =
@@ -479,11 +487,17 @@ default-userjs-label = Floorp Default
 about-default-userjs = Telemetry 무효. 여러 커스터마이즈가 가능한 밸런스 좋은 { -brand-short-name } 설정입니다.
 
 Securefox-label = Yokoffing Securefox
-about-Securefox = HTTPS 를 기본 설정으로.
-  사이트 분리에 의한 Total Cookie Protection.
-  상태나 네트워크의 파티셔닝을 강화.
-  그 외 여러 기능 강화.
-
+about-Securefox =
+  { PLATFORM() ->
+    [macos] HTTPS 를 디폴트 설정으로.
+      사이트 분리에 의한 Total Cookie Protection.
+      상태나 네트워크의 파티셔닝을 강화.
+      그 외 여러 기능 강화.
+    *[other] HTTPS 를 기본 설정으로.
+      사이트 분리에 의한 Total Cookie Protection.
+      상태나 네트워크의 파티셔닝을 강화.
+      그 외 여러 기능 강화.
+  }
 default-label = Yokoffing Default
 about-default = 필요한 것은 모두. 부서질 일은 없습니다. 이것이 당신의 user.js 입니다.
 
@@ -521,7 +535,10 @@ workspaces-reset-warning = 경고! 이 조작을 실행하면, 모든 워크스�
 
 manage-workspace-on-bms-option =
     .label = 브라우저 매니저 사이드바에서 워크스페이스를 관리하기
-
+show-workspace-name-option =
+    .label = 워크스페이스 이름을 항상 아이콘 옆에 표시하기
+change-workspace-with-default-key-option =
+    .label = 워크스페이스를  ↑ 또는 ↓ SHIFT 키를 동시에 눌러 전환하기
 workspaces-manage-title = 워크스페이스의 관리
 workspaces-manage-description = 워크스페이스의 관리를 엽니다. 아이콘을 변경할 수 있습니다.
 workspaces-manage-label =
@@ -561,8 +578,63 @@ workspace-icon-pet =
 workspace-icon-tree =
  .label = 식물
 workspace-icon-chill =
- .label = 프라이빗
+ .label = 사생활
 
+# CSK
+floorp-CSK-title = 커스텀 단축키
+floorp-CSK-description = { -brand-short-name } 의 단축키를 커스터마이즈 합니다.
+  80 이상의 액션으로 브라우저를 자유 자재로 조작해 주세요!
+  이러한 설정을 적용하기 위해서는 { -brand-short-name }  를 재시작해 주세요.
+CSK-reset-title = 커스텀 단축키를 초기화하기
+CSK-reset-description = 커스텀 단축키를 초기화하기
+CSK-reset-label = 커스텀 단축키를 초기화하기
+CSK-reset-button = 초기화하기...
+CSK-manage-title = 커스텀 단축키의 관리
+
+CSK-remove-shortcutkey = 단축키의 삭제
+CSK-remove-shortcutkey-description = 정말로 이 단축키를 삭제하시겠습니까?
+
+CSK-restore-default =
+    { PLATFORM() ->
+        [macos] HTTPS 를 디폴트로 사용하기.
+          사이트 분리에 의한 Total Cookie Protection。
+          상태나 네트워킹의 파티셔닝을 강화.
+          그 이외에 여러 기능 강화.
+       *[other] HTTPS 를 기본으로 사용하기.
+          사이트 분리에 의한 Total Cookie Protection。
+          상태나 네트워킹의 파티셔닝을 강화.
+          그 이외에 여러 기능 강화.
+    }
+
+CSK-restore-default-description =
+    { PLATFORM() ->
+        [macos] 이러한 설정을 디폴트로 되돌립니다. 현재의 설정은 삭제됩니다.
+       *[other] 이러한 설정을 기본로 되돌립니다. 현재의 설정은 삭제됩니다.
+    }
+
+### Exsit shortcut key: "S", "shift"
+CSK-keyborad-shortcut-info = "{ $key }" 와 "{ $modifiers }" 의 조합이 설정되어 있습니다.
+
+disable-fx-actions =
+ .label = Firefox 의 키보드 단축키를 무효화 하기
+customize-Action =
+ .label = 이 액션을 커스터마이즈
+remove-Action =
+ .label = 이 액션을 삭제
+
+floorp-custom-actions-tab-action = 탭 액션
+floorp-custom-actions-page-action = 페이지 액션
+floorp-custom-actions-visible-action = 표시방법 액션
+floorp-custom-actions-search-action = 검색 액션
+floorp-custom-actions-tools-action = 도구 액션
+floorp-custom-actions-bookmark-action = 북마크 액션
+floorp-custom-actions-open-page-action = 페이지를 여는 액션
+floorp-custom-actions-history-action = 기록 액션
+floorp-custom-actions-pip-action = 픽처 인 픽처 액션
+floorp-custom-actions-downloads-action = 다운로드 액션
+floorp-custom-actions-sidebar-action = 사이드바 액션
+floorp-custom-actions-bms-action = 브라우저 매니저 사이드 바 액션
+floorp-custom-actions-workspace-action = 워크스페이스 액션
 
 ## mouse Gesture
 mouse-gesture = 마우스 제스처
@@ -601,8 +673,13 @@ about-Facebook-Container = Facebook 가 웹 상에서 당신을 추적하는걸 
 
 ## Fingerprint
 fingerprint-header = 핑거프린트 & IP 주소의 유출 대책
-block-fingerprint = 핑거 프린팅은, 브라우저와 OS의 고유 기능에 의존하는 추적 메커니즘입니다.
-  이 섹션에서는, 기본의 차단을 넘어서 이 보호를 더욱 강화하기 위한 설정이 포함되어 있습니다.
+block-fingerprint =
+    { PLATFORM() ->
+        [macos] 핑거 프린팅은, 브라우저와 OS의 고유 기능에 의존하는 추적 메커니즘입니다.
+          이 섹션에서는, 디폴트의 차단을 넘어서 이 보호를 더욱 강화하기 위한 설정이 포함되어 있습니다.
+       *[other] 핑거 프린팅은, 브라우저와 OS의 고유 기능에 의존하는 추적 메커니즘입니다.
+          이 섹션에서는, 기본의 차단을 넘어서 이 보호를 더욱 강화하기 위한 설정이 포함되어 있습니다.
+    }
 enable-firefox-fingerprint-protections = 핑거프린트에 대한 강력한 보호를 사용하기
 about-firefox-fingerprint-protection = Firefox 에 의한 핑거프린트 보호를 사용할 경우, 강제 라이트모드, 일부의 API를 무효화 하는 등의 단점이 있습니다.
   일부 사이트가 고장날 가능성도 있습니다.
@@ -829,13 +906,21 @@ update-portable-notification-failed-prepare-message = 업데이트 준비에 실
 ##################################################################### Open link in external ###############################################################
 openInExternal-title = 외부 브라우저로 열기
 open-link-in-external-enabled-option =
- .label = "외부 브라우저로 열기" 기능을 사용하기
+  .label = "외부 브라우저로 열기" 기능을 사용하기
 open-link-in-external-select-browser-option = "외부 브라우저로 열기"로 열 브라우저
 open-link-in-external-select-browser-option-default =
- .label = 기본 브라우저
+  .label =
+    { PLATFORM() ->
+      [macos] 디폴트 브라우저
+      *[other] 기본 브라우저
+    }
 open-link-in-external-tab-context-menu = 외부 브라우저로 열기
 open-link-in-external-tab-dialog-title-error = 에러
-open-link-in-external-tab-dialog-message-default-browser-not-found = 기본 브라우저가 존재하지 않거나 설정되어 있지 않습니다.
+open-link-in-external-tab-dialog-message-default-browser-not-found =
+  { PLATFORM() ->
+    [macos] 디폴트 브라우저가 존재하지 않거나 설정되어 있지 않습니다.
+    *[other] 기본 브라우저가 존재하지 않거나 설정되어 있지 않습니다.
+  }
 open-link-in-external-tab-dialog-message-selected-browser-not-found = 선택된 브라우저는 존재하지 않습니다.
 
 ######################################################################### Floorp Notes ###############################################################
@@ -925,3 +1010,164 @@ welcome-select-button = 선택
 welcome-finish-setup = 셋업 완료!
 welcome-finish-setup-description = 이것으로 설정을 완료했습니다! 수직 탭, 애드온 등 그 외의 설정은 about:preferences 에서 확인할 수 있습니다. { -brand-short-name } 를 즐겨주세요!
 welcomet-finish-setup = 브라우징을 시작하기
+
+############################################################# Custom Shortcutkey ###############################################################
+
+category-CSK =
+ .label = 커스텀 단축키
+ .tooltiptext = 커스텀 단축키
+category-CSK-title = 커스텀 단축키
+shortcutkey-customize = 
+ .title = 커스텀 단축키
+select-shortcutkeyAction = 커스텀 단축키의 액션을 선택
+shortcutkey-customize-key-list-placeholder = 입력된 키
+shortcut-key-label = 액션에 사용할 키
+start-input-button-listen = 키 감지 시작
+end-input-button-listen = 키 감지 종료
+shortcut-key-description = "{ start-input-button-listen }"를 클릭하여, 단축키로서 사용하고 싶은 키를 누릅니다.
+  일부는 여러개의 키를 사용할 수도 있습니다.
+  다른 액션과 중복하지 않도록 해주세요.
+
+floorp-custom-actions-open-new-tab = 새로운 탭을 열기
+  .label = 새로운 탭을 열기
+floorp-custom-actions-close-tab = 현재의 탭을 닫기
+  .label = 현재의 탭을 닫기
+floorp-custom-actions-open-new-window = 새로운 창을 열기
+  .label = 새로운 창을 열기
+floorp-custom-actions-open-new-private-window = 새로운 사생활 보호 창을 열기
+  .label = 새로운 사생활 보호 창을 열기
+floorp-custom-actions-close-window = 현재의 창을 닫기
+  .label = 현재의 창을 닫기
+floorp-custom-actions-restore-last-session = 마지막 세션을 복원
+  .label = 마지막 세션을 복원
+floorp-custom-actions-restore-last-window = 마지막 창을 복원
+  .label = 마지막 창을 복원
+floorp-custom-actions-show-next-tab = 다음 탭을 표시
+  .label = 다음 탭을 표시
+floorp-custom-actions-show-previous-tab = 전의 탭을 표시
+  .label = 전의 탭을 표시
+floorp-custom-actions-show-all-tabs-panel = 탭 관리 패널을 표시
+  .label = 탭 관리 패널을 표시
+floorp-custom-actions-send-with-mail = 메일로 보내기 및 공유하기
+  .label = 메일로 전송 및 공유
+floorp-custom-actions-save-page = 페이지 저장
+  .label = 페이지 저장
+floorp-custom-actions-print-page = 페이지 인쇄
+  .label = 페이지 인쇄
+floorp-custom-actions-mute-current-tab = 현재 탭 음소거 / 음소거 해제
+  .label = 현재 탭 음소거/음소거 해제
+floorp-custom-actions-show-source-of-page = 페이지의 소스 표시
+  .label = 페이지 소스 표시
+floorp-custom-actions-show-page-info = 페이지 정보 표시
+  .label = 페이지 정보 표시
+floorp-custom-actions-zoom-in = 페이지 확대
+  .label = 페이지 확대
+floorp-custom-actions-zoom-out = 페이지 축소
+  .label = 페이지 축소
+floorp-custom-actions-reset-zoom = 페이지 확대/축소 재설정
+  .label = 페이지 확대/축소 재설정
+floorp-custom-actions-back = 페이지 뒤로 돌아가기
+  .label = 페이지 뒤로 가기
+floorp-custom-actions-forward = 페이지 앞으로 이동
+  .label = 페이지 앞으로 이동
+floorp-custom-actions-reload = 페이지 재로드
+  .label = 페이지 다시 로드
+floorp-custom-actions-stop = 페이지 로딩 중지
+  .label = 페이지 로딩 중지
+floorp-custom-actions-force-reload = 페이지 강제 재로드
+  .label = 강제 리로드
+floorp-custom-actions-search-in-this-page = 이 페이지 검색
+  .label = 이 페이지 검색
+floorp-custom-actions-show-next-search-result = 페이지 내 다음 검색 결과 표시
+  .label = 페이지 내 다음 검색 결과 표시
+floorp-custom-actions-show-previous-search-result = 페이지 내 이전 검색 결과 표시
+  .label = 페이지의 이전 검색 결과 표시
+floorp-custom-actions-search-the-web = 웹 검색
+  .label = 웹 검색
+floorp-custom-actions-open-migration-wizard = 마이그레이션 마법사를 엽니다.
+  .label = 마이그레이션 마법사 열기
+floorp-custom-actions-quit-from-application = 브라우저 종료
+  .label = 브라우저 종료
+floorp-custom-actions-enter-into-customize-mode = カスタマイズモードに入る
+  .label = カスタマイズモードに入る
+floorp-custom-actions-enter-into-offline-mode = オフラインモードに入る
+  .label = オフラインモードに入る
+floorp-custom-actions-open-screen-capture = スクリーンショットツールを開く
+  .label = スクリーンショットツールを開く
+floorp-custom-actions-show-pip = ピクチャーインピクチャーを表示
+  .label = ピクチャーインピクチャーを表示
+floorp-custom-actions-bookmark-this-page = このページをブックマーク
+  .label = このページをブックマーク
+floorp-custom-actions-open-bookmarks-sidebar = ブックマークサイドバーを開く
+  .label = ブックマークサイドバーを開く
+floorp-custom-actions-open-bookmark-add-tool = ブックマーク追加ツールを開く
+  .label = ブックマーク追加ツールを開く
+floorp-custom-actions-open-bookmark-add-toolbar = ブックマーク追加ツールバーを開く
+  .label = ブックマーク追加ツールバーを開く
+floorp-custom-actions-open-bookmarks-manager = ブックマークマネージャーを開く
+  .label = ブックマークマネージャーを開く
+floorp-custom-actions-toggle-bookmark-toolbar = ブックマークツールバーの表示を切り替え
+  .label = ブックマークツールバーの表示を切り替え
+floorp-custom-actions-open-general-preferences = 一般設定を開く
+  .label = 一般設定を開く
+floorp-custom-actions-open-privacy-preferences = プライバシー設定を開く
+  .label = プライバシー設定を開く
+floorp-custom-actions-open-workspaces-preferences = ワークスペース設定を開く
+  .label = ワークスペース設定を開く
+floorp-custom-actions-open-containers-preferences = コンテナー設定を開く
+  .label = コンテナー設定を開く
+floorp-custom-actions-open-search-preferences = 検索設定を開く
+  .label = 検索設定を開く
+floorp-custom-actions-open-sync-preferences = 同期設定を開く
+  .label = 同期設定を開く
+floorp-custom-actions-open-task-manager = タスクマネージャーを開く
+  .label = タスクマネージャーを開く
+floorp-custom-actions-open-home-page = ホームページを開く
+  .label = ホームページを開く
+floorp-custom-actions-open-addons-manager = アドオンマネージャーを開く
+  .label = アドオンマネージャーを開く
+floorp-custom-actions-forget-history = 履歴を忘れる
+  .label = 履歴を忘れる
+floorp-custom-actions-quick-forget-history = 履歴のクイック削除
+  .label = 履歴のクイック削除
+floorp-custom-actions-clear-recent-history = 最近の履歴をクリア
+  .label = 最近の履歴をクリア
+floorp-custom-actions-restore-last-session = 最後のセッションを復元
+  .label = 最後のセッションを復元
+floorp-custom-actions-search-history = 履歴を検索
+  .label = 履歴を検索
+floorp-custom-actions-manage-history = 履歴を管理
+  .label = 履歴を管理
+floorp-custom-actions-open-downloads = ダウンロードを開く
+  .label = ダウンロードを開く
+floorp-custom-actions-show-bsm = ブラウザーマネージャーを開く
+  .label = ブラウザーマネージャーを開く
+floorp-custom-actions-show-bookmark-sidebar = ブックマークサイドバーを開く
+  .label = ブックマークサイドバーを開く
+floorp-custom-actions-show-history-sidebar = 履歴サイドバーを開く
+  .label = 履歴サイドバーを開く
+floorp-custom-actions-show-synced-tabs-sidebar = 同期タブサイドバーを開く
+  .label = 同期タブサイドバーを開く
+floorp-custom-actions-reverse-sidebar = サイドバーの位置の切り替え
+  .label = サイドバーの位置の切り替え
+floorp-custom-actions-hide-sidebar = サイドバーを隠す
+  .label = サイドバーを隠す
+floorp-custom-actions-toggle-sidebar = サイドバーの表示を切り替え
+  .label = サイドバーの表示を切り替え
+floorp-custom-actions-open-previous-workspace = 前のワークスペースを開く
+  .label = 前のワークスペースを開く
+floorp-custom-actions-open-next-workspace = 次のワークスペースを開く
+  .label = 次のワークスペースを開く
+
+############################################################# プロファイルスイッチャー ###############################################################
+
+floorp-open-profile-with-new-instance = 開く
+ .tooltiptext = 開く
+floorp-profiles-in-use = このプロファイルは使用中です。
+floorp-profiles-title = プロファイル
+floorp-profiles-create = プロファイルを作成
+floorp-profile-manager = プロファイルマネージャー
+ .label = プロファイルマネージャー
+ .tooltiptext = プロファイルマネージャーを開く
+show-workspace-name-option = ワークスペース名をタブバーに表示
+    .label = ワークスペース名をタブバーに表示
